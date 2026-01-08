@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './header.html',
   styleUrl: './header.css',
 })
-export class Header {
+export class headerComponent {
   firstName: string = '';
+  name: string = 'fellipe';
 }
